@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.todo-wrapper {
+  background-color: #d9d9b8;
+ /* margin: 20px auto 20px 20px;*/
+  margin: 0 auto;
+  max-width: 600px;
+  min-height: 300px;
+  border: 5px solid rgba(73, 204, 249, 1.0);
+  padding: 20px;
+}
+.btn {
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+}
+
+/*.btn-primary {
+  color: rgba(73, 204, 249, 1.0);
+  border-color: rgba(73, 204, 249, 1.0);
+  background-color: transparent;
+}*/
+
+/*input {
+  width: 70%;
+  border: none;
+  border-top: 2px solid rgba(73, 204, 249, 1.0);
+  border-bottom: 2px solid rgba(73, 204, 249, 1.0);
+  margin-right: 10px;
+  padding: 5px;
+  line-height: 17px;
+}*/
+.todoWrapper {
+  border-bottom: 1px solid #efefef;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.removeTodo {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+  color: rgba(203, 20, 32, 0.4);
+  border-color: rgba(203, 20, 32, 0.4);
+  background-color: transparent;
+}
+
+ul{
+  padding-left: 0;
+}
